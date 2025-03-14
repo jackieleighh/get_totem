@@ -14,17 +14,17 @@ const firebaseConfig = {
   measurementId: "G-01KG6BFET5"
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-
 function App() {
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Get Totem
+          Your music festival app.
         </p>
         <a
           className="App-link"
